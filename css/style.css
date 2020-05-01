@@ -43,7 +43,7 @@
 /*header*/
 
 header {
-    background-color: var(--primary-color);
+    background-color: #F9E4B7;
     font-family: var(--lakki);
 }
 
@@ -54,7 +54,7 @@ header .site-title {
 }
 
 .dropdown {
-    background-color: var(--primary-color);
+    background-color: #F9E4B7;
     border: none;
 }
 
@@ -71,4 +71,15 @@ header .site-title {
 
 .navbar-nav .nav-item .nav-link {
     padding: 0 1.3em;
+}
+
+.site-slider {
+    display: grid;
+    height: 100%;
+}
+
+.slider {
+    max-width: 100%;
+    max-height: 100vh;
+    margin: auto;
 }
