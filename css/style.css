@@ -91,6 +91,10 @@ header .site-title {
 
 /* Slick Dots */
 
+.slick-slide {
+    width: 100%;
+}
+
 .slick-dots {
     display: block;
     justify-content: center;
